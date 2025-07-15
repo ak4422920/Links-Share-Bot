@@ -38,13 +38,7 @@ ABOUT_TXT = """<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/AkMovie
 ›› ᴅᴀᴛᴀʙᴀsᴇ: <a href='https://www.mongodb.com/docs/'>Mᴏɴɢᴏ ᴅʙ</a>
 ›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Akmoviebotz ©ProYato</b></blockquote>""" # Bhosdiwalo agar developer me Yato ka username hataya to agli baar se koi repo public nhi krunga!!
 
-CHANNELS_TXT = """<b>›› ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/AkMoviesHubBackup'>AᴋMᴏᴠɪᴇꜱHᴜʙBᴀᴄᴋᴜᴘ</a>
-#<blockquote expandable>›› ᴍᴏᴠɪᴇs: <a href='https://t.me/movieflixspot'>ᴍᴏᴠɪᴇғʟɪx sᴘᴏᴛ</a>
-#›› ᴡᴇʙsᴇʀɪᴇs: <a href='https://t.me/webseries_flix'>ᴡᴇʙsᴇʀɪᴇs ғʟɪx</a>
-#›› ᴀᴅᴜʟᴛ ᴄʜᴀɴɴᴇʟs: <a href='https://t.me/hanime_arena'>ᴄᴏʀɴʜᴜʙ</a>
-#›› ᴍᴀɴʜᴡᴀ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/pornhwa_flix'>ᴘᴏʀɴʜᴡᴀ</a>
-#›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/'>ᴏᴛᴀᴋᴜғʟɪx</a>
-#›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: ProYato</b></blockquote>""" # Bhosdiwalo agar developer me Yato ka username hataya to agli baar se koi repo public nhi krunga!!
+CHANNELS_TXT = """<b>›› ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/AkMoviesHubBackup'>AᴋMᴏᴠɪᴇꜱHᴜʙBᴀᴄᴋᴜᴘ</a> </b>""" # Bhosdiwalo agar developer me Yato ka username hataya to agli baar se koi repo public nhi krunga!!
 
 #--- ---- ---- --- --- --- - -- -  - - - - - - - - - - - --  - -
 # Default
@@ -58,7 +52,7 @@ DATABASE_CHANNEL = int(os.environ.get("DATABASE_CHANNEL", "-1002700642986")) # C
 
 try:
     ADMINS = []
-    for x in (os.environ.get("ADMINS", "7251898668").split()):
+    for x in (os.environ.get("ADMINS", "7251898668 1049173662").split()):
         ADMINS.append(int(x))
 except ValueError:
     raise Exception("Your Admins list does not contain valid integers.")
